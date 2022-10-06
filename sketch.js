@@ -64,7 +64,7 @@ function preload()
 
 function setup() 
 {
-  createCanvas(600,700);
+  createCanvas(windowWidth,windowHeight);
   frameRate(80);
 
   bk_song.play();
